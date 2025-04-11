@@ -1,0 +1,25 @@
+{
+  "title": "함께하는 일 · 우리의 흔적",
+  "sections": [
+    {
+      "title": "인문학 콘서트",
+      "description": "깊은 사유와 따뜻한 대화가 어우러진 시간\n마음을 울리는 문학과 인문학의 이야기",
+      "image": "concert.jpg"
+    },
+    {
+      "title": "지역 축제",
+      "description": "지역의 숨결을 느끼며 함께 웃는 하루\n소박한 만남속에 커지는 온기",
+      "image": "festival.jpg"
+    },
+    {
+      "title": "나눔 바자회",
+      "description": "행복이 전해지는 물건들,\n그 속의 이야기들",
+      "image": "market.jpg"
+    },
+    {
+      "title": "따뜻한 후원",
+      "description": "작은 나눔이 모여 큰 울림이 됩니다\n사색의향기와 함께 만들어가는 더 나은 내일",
+      "image": "heart.jpg"
+    }
+  ]
+}
