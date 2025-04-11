@@ -5,6 +5,7 @@ import { CgChevronDown } from 'react-icons/cg';
 import {
   useLanguage,
 } from '../context/LanguageContext'; // Import useLanguage hook
+import logo from '../images/Group.png';
 
 const Header = () => {
   const { language, changeLanguage, translations } =  useLanguage(); 
@@ -13,12 +14,23 @@ const Header = () => {
 
   return (
     <div className="w-full font-pretend items-center justify-between flex px-[60px] py-[47px]">
-      <div>logo</div>
+      <div className="flex items-center gap-2">
+        <img className=" w-[30.94px] h-[42px]" src={logo} alt="" />
+        <p className=" text-[#4d342c] text-3xl">
+          {translations[language].paragraphHeader}
+        </p>
+      </div>
       <div className="flex gap-4">
-        <ul className="flex items-center gap-4">
-          <li>{translations[language].home}</li>
-          <li>{translations[language].about}</li>
-          <li>{translations[language].app}</li>
+        <ul className="flex items-center gap-4 font-pretend text-xl leading-[150%] font-semibold ">
+          <li className="hover:text-[#4d342c] ">
+            {translations[language].introduction}
+          </li>
+          <li className="hover:text-[#4d342c]">
+            {translations[language].sosodamdamAPP}
+          </li>
+          <li className="hover:text-[#4d342c]">
+            {translations[language].activity}
+          </li>
         </ul>
         <div className="relative">
           <button

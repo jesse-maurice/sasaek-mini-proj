@@ -10,7 +10,7 @@ import { useLanguage } from '../context/LanguageContext';
 
 const Hero = () => {
   const [value, setValue] = useState(1);
-  const { language, changeLanguage, translations } =  useLanguage(); 
+  const { language, translations } =  useLanguage(); 
 
   const handleSliderChange = (event) => {
     setValue(event.target.value);
@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="relative w-24 h-1 bg-gray-200 rounded-full">
             <div
               className={`absolute top-0 left-0 h-full bg-black rounded-full transition-all duration-300 ${
-                value === "1" ? "w-1/2" : "w-full"
+                value === "1" ? "w-1/2" : "w-1/2"
               }`}
             ></div>
             <input

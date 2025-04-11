@@ -1,9 +1,11 @@
 import './App.css';
 
+import Activities from '../src/components/Activities';
 import Header from '../src/components/Header';
 import Hero from '../src/components/Hero';
 import ChairmanAddress from './components/ChairmanAddress';
 import Culture from './components/Culture';
+import Donation from './components/Donation';
 import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <Header />
       <Hero />
       <Culture />
-      <ChairmanAddress/>
+      <ChairmanAddress />
+      <Activities />
+      <Donation/>
     </LanguageProvider>
   );
 }
