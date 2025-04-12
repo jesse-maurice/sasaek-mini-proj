@@ -6,6 +6,9 @@ import Hero from '../src/components/Hero';
 import ChairmanAddress from './components/ChairmanAddress';
 import Culture from './components/Culture';
 import Donation from './components/Donation';
+import Footer from './components/Footer';
+import Partners from './components/Partners';
+import Vision from './components/Vision';
 import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
@@ -16,7 +19,10 @@ function App() {
       <Culture />
       <ChairmanAddress />
       <Activities />
-      <Donation/>
+      <Donation />
+      <Vision />
+      <Partners />
+      <Footer/>
     </LanguageProvider>
   );
 }
