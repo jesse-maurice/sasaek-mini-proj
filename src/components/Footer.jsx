@@ -17,6 +17,7 @@ const Footer = () => {
             className="w-6 sm:w-8 md:w-[30.94px] h-8 sm:h-10 md:h-[42px] brightness-0 invert opacity-50"
             src={logo}
             alt={translations[language].logoAlt || "Logo"}
+            loading="lazy"
           />
           <p className="text-[#ffffff] text-opacity-[50%] text-xl sm:text-2xl md:text-3xl lg:text-4xl">
             {translations[language].paragraphHeader}

@@ -18,6 +18,7 @@ const Culture = () => {
             className="w-32 sm:w-40 md:w-48 lg:w-[240px] h-12 sm:h-14 md:h-16 lg:h-[84px] rounded-3xl sm:rounded-[50px] md:rounded-[100px]"
             src={book}
             alt="Book"
+            loading="lazy"
           />
         </h2>
         <h3 className="font-bold leading-[130%] text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#111111]">

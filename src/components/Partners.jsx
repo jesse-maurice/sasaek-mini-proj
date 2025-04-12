@@ -31,6 +31,7 @@ const Partners = () => {
           src={icon1}
           alt="Partner 1"
           className="w-12 sm:w-16 md:w-20 lg:w-[80px] h-auto"
+          loading="lazy"
         />
       ),
       h1: translations[language].h1Icon1,
@@ -42,6 +43,7 @@ const Partners = () => {
           src={icon4}
           alt="Partner 2"
           className="w-16 sm:w-20 md:w-24 lg:w-[104px] h-auto"
+          loading="lazy"
         />
       ),
       h1: translations[language].h1Icon4,
@@ -53,6 +55,7 @@ const Partners = () => {
           src={icon2}
           alt="Partner 3"
           className="w-20 sm:w-24 md:w-32 lg:w-[160px] h-auto"
+          loading="lazy"
         />
       ),
       h1: translations[language].h1Icon2,
@@ -64,6 +67,7 @@ const Partners = () => {
           src={icon3}
           alt="Partner 4"
           className="w-24 sm:w-32 md:w-40 lg:w-[220px] h-auto"
+          loading="lazy"
         />
       ),
       h1: translations[language].h1Icon4,

@@ -23,6 +23,7 @@ const Donation = () => {
             className="w-5 h-5 sm:w-6 sm:h-6 group-hover:brightness-0 group-hover:invert"
             src={handshake}
             alt="Handshake"
+            loading="lazy"
           />
           {translations[language].button1}
         </button>

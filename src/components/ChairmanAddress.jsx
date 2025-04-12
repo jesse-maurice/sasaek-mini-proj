@@ -30,6 +30,7 @@ const ChairmanAddress = () => {
               className="w-24 sm:w-32 md:w-36 lg:w-[150px]"
               src={signature}
               alt="Signature"
+              loading="lazy"
             />
           </h2>
           <h3 className="font-medium flex items-center justify-center lg:justify-start text-xs sm:text-sm md:text-base mt-3 sm:mt-4 md:mt-5 font-pretend text-[#111111] leading-[100%]">
@@ -45,6 +46,7 @@ const ChairmanAddress = () => {
             className="relative w-48 sm:w-64 md:w-80 lg:w-96 z-10 mx-auto lg:mx-0 lg:absolute lg:sm:-right-8 lg:md:-right-12 lg:-right-[10px] lg:sm:-bottom-8 lg:md:-bottom-10 lg:-bottom-[340px]"
             src={Chairman}
             alt="Chairman"
+            loading="lazy"
           />
         </div>
       </div>
@@ -58,6 +60,7 @@ const ChairmanAddress = () => {
               className="object-cover w-full h-full rounded-full"
               src={avatar1}
               alt="Chairman"
+              loading="lazy"
             />
           </div>
           <p className="mt-3 sm:mt-4 text-center font-bold text-lg sm:text-xl md:text-2xl leading-[150%] font-gowun">
@@ -72,6 +75,7 @@ const ChairmanAddress = () => {
               className="object-cover w-full h-full rounded-full"
               src={avatar2}
               alt="Advisor"
+              loading="lazy"
             />
           </div>
           <p className="mt-3 sm:mt-4 text-center font-bold text-lg sm:text-xl md:text-2xl leading-[150%] font-gowun">
@@ -86,6 +90,7 @@ const ChairmanAddress = () => {
               className="object-cover w-full h-full rounded-full"
               src={avatar3}
               alt="Advisor"
+              loading="lazy"
             />
           </div>
           <p className="mt-3 sm:mt-4 text-center font-bold text-lg sm:text-xl md:text-2xl leading-[150%] font-gowun">

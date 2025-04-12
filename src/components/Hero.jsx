@@ -23,6 +23,7 @@ const Hero = () => {
           className="w-full h-auto rounded-2xl sm:rounded-3xl md:rounded-[40px]"
           src={hero}
           alt="Hero background"
+          loading="lazy"
         />
         <div className="absolute w-full px-4 text-center text-white transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-[32px] leading-[150%] font-gowun font-bold">

@@ -20,6 +20,7 @@ const Header = () => {
           className="w-6 sm:w-8 md:w-[30.94px] h-8 sm:h-10 md:h-[42px]"
           src={logo}
           alt="Logo"
+          loading="lazy"
         />
         <p className="text-[#4d342c] text-xl sm:text-2xl md:text-3xl xl:text-4xl font-bold">
           {translations[language].paragraphHeader}

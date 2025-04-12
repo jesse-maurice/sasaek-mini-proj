@@ -15,11 +15,12 @@ const Vision = () => {
       {/* Text Section */}
       <div className="flex flex-col w-full lg:w-[649px]">
         <div className="relative w-16 sm:w-20 md:w-24 h-16 sm:h-20 md:h-24 flex items-center justify-center rounded-2xl sm:rounded-[20px] bg-[#4d342c] mx-auto lg:mx-0">
-          <img src={icon} alt="Icon" />
+          <img src={icon} alt="Icon" loading="lazy" />
           <img
             className="absolute w-8 sm:w-10 md:w-[52px] h-8 sm:h-10 md:h-[52px] top-7 sm:top-9 md:top-11 left-7 sm:left-9 md:left-11"
             src={cutout}
             alt="Cutout"
+            loading="lazy"
           />
         </div>
 
@@ -52,6 +53,7 @@ const Vision = () => {
           className="w-48 sm:w-64 md:w-80 lg:w-[360px] h-auto"
           src={appscreen}
           alt="App Screen"
+          loading="lazy"
         />
       </div>
     </div>

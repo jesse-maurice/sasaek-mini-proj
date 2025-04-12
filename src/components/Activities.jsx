@@ -40,6 +40,7 @@ const Activities = () => {
                 src={imageMap[section.image]}
                 alt={section.title}
                 className="object-cover w-full h-32 sm:h-40 md:h-48 lg:h-[171px]"
+                loading="lazy"
               />
             </div>
 
